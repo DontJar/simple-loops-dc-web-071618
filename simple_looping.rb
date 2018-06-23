@@ -34,6 +34,7 @@ def until_iterator(number_of_times)
 end
 
 def for_iterator(number_of_times)
-  for spells 1..number_of_times.to_i
+  x = number_of_times.to_i
+  for spells 1..x
     puts "#{Phrase}"
 end
