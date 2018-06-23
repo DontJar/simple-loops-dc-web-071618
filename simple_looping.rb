@@ -20,7 +20,8 @@ end
 def while_iterator(number_of_times)
   counter = 0
   while counter >= 7
-    puts
+    puts "#{Phrase}"
+    counter =+ 1
   # code your solution here using the "while" keyword
   # hint: user a counter to tell the while loop when to stop!
 
