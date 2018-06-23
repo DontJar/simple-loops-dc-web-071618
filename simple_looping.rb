@@ -5,7 +5,7 @@ def loop_iterator(number_of_times)
   loop do
     counter += 1
     puts "#{Phrase}"
-    if counter == 7
+    if counter == number_of_times
       break
     end
   end
@@ -34,7 +34,6 @@ def until_iterator(number_of_times)
 end
 
 def for_iterator(number_of_times)
-  number_of_times.to_i = x
-  for spells 1..x
+  for spells 1..number_of_times
     puts "#{Phrase}"
 end
